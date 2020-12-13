@@ -4,6 +4,6 @@ div.sideList > div.login {display: inline-block; width: 48%; height:100%; margin
 
 div.sideList > div.register{display: inline-block; width:48%; height:100%; margin:0px; padding:2rem 0px 0px 0px; text-align: center ;}
 
-div.sideList > div > input {width: 60%; font-size:3rem; font-weight: bold; border:1px solid rgb(108,108,108); border-radius: 10px; background-color:rgb(108,108,108); color:white;}
+div.sideList > div > a {text-decoration:none;width: 60%; font-size:3rem; font-weight: bold; border:1px solid rgb(108,108,108); border-radius: 10px; background-color:rgb(108,108,108); color:white;}
 
-div.sideList > div > input:hover{ cursor:pointer; background-color:rgb(50,50,50)}
+div.sideList > div > a:hover{ cursor:pointer; background-color:rgb(50,50,50)}

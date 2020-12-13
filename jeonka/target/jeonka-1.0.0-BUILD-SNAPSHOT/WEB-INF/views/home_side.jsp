@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="sideList">
     <div class="login">
-        <input type="button" id="loginButton" value="로그인"/>
+        <a href="login" id="loginButton">로그인</a>
     </div>
     <div class="register">
-        <input type="button" id="registerButton" value="회원가입"/>
+        <a href="register" id="registerButton">회원가입</a>
     </div>
 </div>

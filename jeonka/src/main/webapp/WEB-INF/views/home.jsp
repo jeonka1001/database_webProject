@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@ page session="false" %>
 <html>
 <head>
@@ -15,6 +16,6 @@
 	<div class="mainContent"><jsp:include page="main_content.jsp"/></div>
 	<div class="side"><jsp:include page="home_side.jsp"/></div>
 </div>
-<div class="footer">footer</div>
+<div class="footer"><img src="/resources/image/adv.jpg"></div>
 </body>
 </html>
