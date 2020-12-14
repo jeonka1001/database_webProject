@@ -40,10 +40,10 @@
                 </div>
                 <div id="mData">
                     <ul>
-                        <li><span>슈크림 붕어빵</span><span>3</span><span>1000</span></li>
-                        <li><span>팥 붕어빵</span><span>4</span><span>1000</span></li>
-                        <li><span>국화빵</span><span>5</span><span>1000</span></li>
-                        <li><span>슈크림 국화빵</span><span>4</span><span>1000</span></li>
+                        <li><div>슈크림 붕어빵</div><div>3</div><div>1000</div></li>
+                        <li><div>팥 붕어빵</div><div>4</div><div>1000</div></li>
+                        <li><div>국화빵</div><div>5</div><div>1000</div></li>
+                        <li><div>슈크림 국화빵</div><div>4</div><div>1000</div></li>
                     </ul>
                 </div>
             </div>

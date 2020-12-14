@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<div id="read_board_main">
+<div id="write_board_main">
     <ul>
         <li>
             <div id="writer">
@@ -34,7 +34,7 @@
         </li>
         <li>
             <div id="menu">
-                <div div="mTitle">
+                <div id="mTitle">
                     <div id="menuName">메뉴</div>
                     <div id="menuNum">개당</div>
                     <div id="menuPrice">가격</div>

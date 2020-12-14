@@ -1,16 +1,30 @@
 #read_board_main{font-size:10pt; font-family:sans-serif;}
 ul {list-style:none; padding:0px 2rem 0px 2rem;}
-ul > li {width:100%; height:18%}
+ul > li {width:100%; height:15%;}
+ul > li:nth-child(5){height:35%; overflow:hidden}
 ul > li > div{height:100%;}
-ul > li > div > span{font-size:1.5rem; font-weight:bold; height:100%;}
+ul > li > div > span{font-size:1.6rem; height:100%;}
 ul > li:first-child > div { width:49%;  display:inline-block;}
 ul > li > div > span:nth-child(2){margin:0px 0px 0px 5rem;}
-ul > li:nth-child(3) > div > div {font-size:1.5rem; font-weight:bold; height:100%; display:inline-block; vertical-align:top;}
+ul > li:nth-child(3) > div > div {font-size:1.5rem;  height:100%; display:inline-block; vertical-align:top;}
 ul > li:nth-child(3) > div > div:nth-child(2) {margin:0px 0px 0px 5rem; width:55%; }
+ul > li:nth-child(4) > div > span:last-child{font-size:3rem; color: darkgoldenrod;}
 
-ul > li > #menu { width:95%;}
+ul > li > #menu { width:80%; margin: 0px 0px 0px 2.5rem; height:100%;}
 ul > li > #menu > #mTitle { width: 100%; border:1px solid rgb(120,120,120); border-right:0px; border-left:0px; background-color:rgb(190,190,190);}
 ul > li > #menu > #mTitle > div{display:inline-block; text-align:center; font-size:1.3rem; }
 ul > li > #menu > #mTitle > div:first-child{width: 35%; text-align:left; padding:0px 0px 0px 2rem;}
-ul > li > #menu > #mTitle > div:nth-child(2){width:10%;}
-ul > li > #menu > #mTitle > div:last-child{width:20%;}
+ul > li > #menu > #mTitle > div:nth-child(2){width:10%;margin:0px 0px 0px 5rem;}
+ul > li > #menu > #mTitle > div:last-child{width:20%; margin:0px 0px 0px 1.5rem;}
+
+ul > li > #menu > #mData { height:100%; overflow:scroll; }
+ul > li > #menu > #mData > ul {padding:0px; height:100%;}
+ul > li > #menu > #mData > ul > li {margin:0.4rem 0px 0px 0px; width: 100%; height:18%;border-bottom:1px solid rgb(150,150,150); background-color:white;}
+ul > li > #menu > #mData > ul > li > div {font-size:1.5rem; display:inline-block;}
+ul > li > #menu > #mData > ul > li > div:first-child{width:60%;}
+ul > li > #menu > #mData > ul > li > div:nth-child(2){width:10%; text-align:center;}
+ul > li > #menu > #mData > ul > li > div:last-child{width:30%; text-align:center;}
+
+#read_board_main > ul > li:last-child{border-top:4px double rgb(100,100,100); width: 80%; margin:0.5rem 0px 0px 2.5rem;}
+#read_board_main > ul > li:last-child > button { width:30%; font-size:1.5rem; border:0px; background-color:rgb(80,80,80); border-radius:5px; color:white; margin: 3rem 0px 0px 2rem;}
+#read_board_main > ul > li:last-child > button:last-child{margin:0px 0px 0px 8rem;}

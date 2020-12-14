@@ -35,5 +35,7 @@
             </li>
         </ul>
     </div>
-    <button type="button" id="back" onclick="history.back()">돌아가기</button>
+    <div id="buttonDiv">
+        <button type="button" id="back" onclick="history.back()">돌아가기</button>
+    </div>
 </div>

@@ -8,36 +8,41 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <div class="mainList">
+    <div id="mainTitle">
+        <div id="tWrite">작성자</div>
+        <div id="tProduct">품목</div>
+        <div id="tLocation">위치</div>
+    </div>
     <ul>
-        <li>
-            <div>작성자</div>
-            <div>품목</div>
-            <div>위치</div>
-        </li>
         <li>
             <div class="writer"><div>Jeonka</div></div>
             <div class="product"><div>호떡</div></div>
             <div class="location"><div>경기도 광명시 광명사거리</div></div>
+            <a href="read_board">자세히 보기</a>
         </li>
         <li>
             <div class="writer"><div>hye0285</div></div>
             <div class="product"><div>계란빵</div></div>
             <div class="location"><div>서울시 은평구 응암역</div></div>
+            <a href="read_board">자세히 보기</a>
         </li>
         <li>
             <div class="writer"><div>hello</div></div>
             <div class="product"><div>호떡</div></div>
             <div class="location"><div>사랑시 고백구 행복동</div></div>
+            <a href="read_board">자세히 보기</a>
         </li>
         <li>
             <div class="writer"><div>ruddks20002</div></div>
             <div class="product"><div>타코야끼</div></div>
             <div class="location"><div>경상북도 울릉군 남면도동</div></div>
+            <a href="read_board">자세히 보기</a>
         </li>
         <li>
             <div class="writer"><div>iLike</div></div>
             <div class="product"><div>붕어빵</div></div>
             <div class="location"><div>서울시 은평구 응암역</div></div>
+            <a href="read_board">자세히 보기</a>
         </li>
     </ul>
 </div>

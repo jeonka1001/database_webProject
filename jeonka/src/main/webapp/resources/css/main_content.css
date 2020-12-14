@@ -6,15 +6,21 @@ div.main_divider{width:100%; height:5%; background-color:rgb(158,158,158);}
 
 div.mainList > ul{ list-style: none; margin:0px; width:100%; height:100%; padding:0px;}
 
+div.mainList  #mainTitle { width:95%; border: 1px solid rgb(100,100,100); border-right : 0px; border-left : 0px; background-color: rgb(160,160,160); color:white; margin:0px 0px 0px 1rem;}
+div.mainList > #mainTitle:hover{cursor:default ;}
+div.mainList > #mainTitle > div { font-size:2rem; display:inline-block; margin: 0px 0px 0px 2rem;}
+div.mainList > #mainTitle > div:last-child{margin:0px 0px 0px 4rem;}
+
 div.mainList > ul > li{ width: 95%; height:15%; float : left; border-bottom:1px solid rgb(190,190,190); margin:0px 1rem 0px 1rem;}
 div.mainList > ul > li:hover{ background-color: rgb(180,180,180); }
-div.mainList > ul > li:first-child{margin:0.1rem 1rem 0.1rem 1rem; border-bottom:0px; }
-div.mainList > ul > li:first-child:hover{background-color:white;cursor:default ;}
 div.mainList > ul > li:last-child{border-bottom:3px double rgb(190,190,190);}
 
-div.mainList > ul > li > div{ display: inline-block; width:20%; height:100%; font-size:2rem; position: relative ; top: 1rem; overflow: hidden;}
-div.mainList > ul > li > div:last-child{width:55%; height:100%}
-div.mainList > ul > li > div> div{font-size:2rem;}
+div.mainList > ul > li > div{ display: inline-block; width:20%; height:60%; font-size:2rem; position: relative ; top: 1rem; overflow:hidden; flow:left;}
+div.mainList > ul > li > div.location{ width:45%; overflow:hidden;}
+div.mainList > ul > li > div.location > div {width:300%;}
+div.mainList > ul > li > a { text-decoration: none; color:rgb(100,100,80); font-size:1.1rem;}
+div.mainList > ul > li > a:hover{text-shadow:1px 1px 10px red;}
+div.mainList > ul > li > div> div{font-size:2rem; height:100%; widht: 55%;}
 div.mainList > ul > li > div> div:hover{transform: translate3d(-100px,0,0); transition:transform 3s; cursor: pointer;}
 
 div.listFinder > ul { list-style: none; margin: 0px; width:100%; height:100%; padding:0px; }
