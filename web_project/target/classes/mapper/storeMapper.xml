@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.jeonka.mapper.StoreMapper">
+    <select id="showList" resultType="Store">
+        SELECT * FROM store ORDER BY sCode DESC
+    </select>
+    <select id="show" parameterType="integer" resultType="Store">
+        select sCode,sName,sAddress,sType,date_format(sDate,'%Y-%m-%d') as sDate,mId from store where sCode = ${sCode};
+    </select>
+</mapper>
