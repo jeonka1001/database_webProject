@@ -6,11 +6,11 @@ public class MemberVO {
     private String mId;
     private String mPass;
     private String mNick;
-    private Timestamp mBirth;
+    private String mBirth;
 
     public MemberVO() {
     }
-    public MemberVO(String mId, String mPass, String mNick, Timestamp mBirth) {
+    public MemberVO(String mId, String mPass, String mNick, String mBirth) {
         this.mId = mId;
         this.mPass = mPass;
         this.mNick = mNick;
@@ -41,11 +41,11 @@ public class MemberVO {
         this.mNick = mNick;
     }
 
-    public Timestamp getmBirth() {
+    public String getmBirth() {
         return mBirth;
     }
 
-    public void setmBirth(Timestamp mBirth) {
+    public void setmBirth(String mBirth) {
         this.mBirth = mBirth;
     }
 }

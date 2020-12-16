@@ -7,4 +7,5 @@ import java.util.ArrayList;
 
 public interface MenuDAO {
     ArrayList<MenuVO> showList(int sCode);
+    void insert(MenuVO menu);
 }

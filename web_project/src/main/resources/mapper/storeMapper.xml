@@ -8,6 +8,12 @@
         SELECT * FROM store ORDER BY sCode DESC
     </select>
     <select id="show" parameterType="integer" resultType="Store">
-        select sCode,sName,sAddress,sType,date_format(sDate,'%Y-%m-%d') as sDate,mId from store where sCode = ${sCode};
+        select sCode,sName,sAddress,sType,date_format(sDate,'%Y-%m-%d') as sDate,mId from store where sCode = #{sCode};
+    </select>
+    <insert id="insert" parameterType="StoreCommand">
+        insert into store values(default,#{sName},#{sAddress},#{sType},#{sDate},#{mId})
+    </insert>
+    <select id="getsCode" resultType="integer">
+        select sCode from store order by sCode desc limit 1;
     </select>
 </mapper>

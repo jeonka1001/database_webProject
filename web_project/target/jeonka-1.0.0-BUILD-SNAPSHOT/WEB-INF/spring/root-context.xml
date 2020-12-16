@@ -20,6 +20,7 @@
 				<value>classpath:mapper/storeMapper.xml</value>
 				<value>classpath:mapper/menuMapper.xml</value>
 				<value>classpath:mapper/reviewMapper.xml</value>
+				<value>classpath:mapper/memberMapper.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -40,6 +41,11 @@
 
 	<bean id="reviewMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
 		<property name="mapperInterface" value="com.example.jeonka.mapper.ReviewMapper"/>
+		<property name="sqlSessionTemplate" ref="sqlSession"/>
+	</bean>
+
+	<bean id="memberMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.example.jeonka.mapper.MemberMapper"/>
 		<property name="sqlSessionTemplate" ref="sqlSession"/>
 	</bean>
 

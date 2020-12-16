@@ -5,9 +5,9 @@
 
 <mapper namespace="com.example.jeonka.mapper.ReviewMapper">
     <select id="showMyReview" parameterType="java.lang.String" resultType="Review">
-        SELECT  FROM review WHERE mId=${mId}
+        SELECT * FROM review WHERE mId=#{mId}
     </select>
     <select id="showAvgStar" parameterType="integer" resultType="Double">
-        select ifnull(avg(${sCode}),0) from review WHERE sCode = ${sCode}
+        select ifnull(avg(#{sCode}),0) from review WHERE sCode = #{sCode}
     </select>
 </mapper>

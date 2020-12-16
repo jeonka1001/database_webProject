@@ -5,6 +5,8 @@ import com.example.jeonka.vo.ReviewVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
+
 @Repository("reviewDAO")
 public class ReviewDAOImpl implements ReviewDAO{
 
@@ -13,7 +15,7 @@ public class ReviewDAOImpl implements ReviewDAO{
 
 
     @Override
-    public ReviewVO showMyReview(String mId) {
+    public ArrayList<ReviewVO> showMyReview(String mId) {
         return reviewMapper.showMyReview(mId);
     }
 

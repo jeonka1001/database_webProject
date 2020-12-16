@@ -1,0 +1,11 @@
+.myPage { font-size: 10pt; font-family:sans-serif; padding-left:3rem; margin:0px;}
+
+.myPage > ul{ list-style: none; height:100%;}
+
+.myPage > ul > li { height:40%; width: 100%; margin-top:1rem;}
+
+.myPage > ul > li > div { display:inline-block; font-size:1.5rem;margin-left:3rem;}
+
+.myPage > ul > li > a{text-decoration:none; background-color:rgb(70,70,70); color:white; padding:0.5rem; border-radius:5px; margin-right:5rem;}
+
+.myPage > ul > li > a:nth-child(2){margin-left:10rem;}

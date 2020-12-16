@@ -1,0 +1,12 @@
+#info_main{font-size:10px; font-famliy:san-serif;}
+#info_main > ul {list-style:none; margin:2rem 0px 0px 0px;}
+#info_main > ul > li { width:100%; height:10%; margin:2rem 0px 0px 0px;}
+#info_main > ul > li > div > span {font-size:2rem}
+#info_main > ul > li > #mId > span:last-child{font-size:1.5rem; margin:0px 0px 0px 5rem}
+#info_main > ul > li > div > span > input { border:0px; border-bottom:1px solid rgb(80,80,80); width: 50%; margin: 0px 0px 0px 4rem;}
+#info_main > ul > li > #mNick > #nickData { margin:0px 0px 0px 4.5rem;}
+
+button{border:0px; background-color: rgb(100,100,100); color:white; width: 5rem; height:1.5rem; border-radius:5px;}
+button:hover{cursor:pointer;}
+#info_main > ul > li:last-child > button{width:10rem; height: 2rem; font-size: 1.5rem; margin:1rem 0px 0px 6rem;}
+

@@ -1,0 +1,22 @@
+.register_list{font-family:sans-serif; font-size:10pt; color:rgb(90,90,90);}
+
+.register_list > ul {list-style:none;}
+.register_list > ul > li{ width:100%; height:13%; padding:2rem 0px 0px 0px;}
+
+.register_list > ul > li > .inputId{width:100%; height:100%; padding:0px; margin:0px;}
+.register_list > ul > li > div > label{font-size:1.5rem; font-weight:bold;}
+.register_list > ul > li > div > input{border:0px; border-bottom:1px solid rgb(90,90,90); margin: 0px 2rem 0px 2rem; width: 40%;}
+.register_list > ul > li > div > button {width:20%; height:50%; font-size:1.3rem; border:0px; background-color:rgb(90,90,90); color:white; border-radius:5px; margin:0px 0px 0px 3rem;}
+.register_list > ul > li > #buttons > button {margin:0px 0px 0px 7rem;}
+
+.register_list > ul > li > div > #mPass {width: 60%; margin: 0px 0px 0px 4.8rem}
+.register_list > ul > li > div > #mPassConfirm {width: 60% }
+
+.register_list > ul > li > div > #birth{margin: 0px 0px 0px 5rem;}
+
+.register_list > ul > li > div > input:hover{cursor:inherit;}
+.register_list > ul > li > div > button:hover{cursor:pointer;}
+.register_list > ul > li > div > a{text-decoration:none; background-color:rgb(90,90,90); color:white; font-size:1.3rem; display:inline-block; width:20%; text-align:center; border-radius:5px; height:45%; vertical-align:top; padding-top:0.2rem; margin-left:2rem;}
+.register_list > ul > li > div > #birth:hover{cursor:pointer;}
+
+.message{width:50%; margin-left:15rem; color:red;}

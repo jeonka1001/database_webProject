@@ -5,7 +5,9 @@
 
 <mapper namespace="com.example.jeonka.mapper.MenuMapper">
     <select id="showList" parameterType="integer" resultType="Menu">
-        SELECT * from menu WHERE sCode = ${sCode}
+        SELECT * from menu WHERE sCode = #{sCode}
     </select>
-
+    <insert id="insert" parameterType="Menu">
+        insert into menu values(#{sCode},#{mName},#{mNum},#{mPrice})
+    </insert>
 </mapper>

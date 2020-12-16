@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Locale;
 
 @Controller
-public class MyInfoContent {
-    private static Logger logger = LoggerFactory.getLogger(MyInfoContent.class);
+public class MyInfoController {
+    private static Logger logger = LoggerFactory.getLogger(MyInfoController.class);
 
     @RequestMapping("myinfo")
     public String myinfo(Locale locale, Model model){

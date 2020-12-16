@@ -1,6 +1,7 @@
 package com.example.jeonka.dao;
 
 import com.example.jeonka.mapper.StoreMapper;
+import com.example.jeonka.vo.StoreCommand;
 import com.example.jeonka.vo.StoreVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -19,4 +20,12 @@ public class StoreDAOImpl implements StoreDAO{
     }
 
     public StoreVO show(int sCode){return storeMapper.show(sCode);}
+
+    @Override
+    public void insert(StoreCommand store) {
+        storeMapper.insert(store);
+    }
+    public int getsCode(){
+        return storeMapper.getsCode();
+    }
 }

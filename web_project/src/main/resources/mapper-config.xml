@@ -8,6 +8,7 @@
         <typeAlias type="com.example.jeonka.vo.StoreVO" alias="Store"/>
         <typeAlias type="com.example.jeonka.vo.MenuVO" alias="Menu"/>
         <typeAlias type="com.example.jeonka.vo.ReviewVO" alias="Review"/>
-        <typeAlias type="com.example.jeonka.vo.Member" alias="Member"/>
+        <typeAlias type="com.example.jeonka.vo.MemberVO" alias="Member"/>
+        <typeAlias type="com.example.jeonka.vo.StoreCommand" alias="StoreCommand"/>
     </typeAliases>
 </configuration>
